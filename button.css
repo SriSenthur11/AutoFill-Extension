@@ -1,0 +1,9 @@
+#auto-fill{
+    height: 30px;
+    width: 120px;
+    outline: none;
+    background-color: black;
+    color: white;
+    text-shadow: grey;
+    box-shadow: 9px;
+}

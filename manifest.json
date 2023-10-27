@@ -1,0 +1,21 @@
+{
+    "name": "Integration Autofill Plugin",
+    "version": "1.0",
+    "description": "Autofill!",
+    "permissions": ["activeTab", "scripting", "storage","<all_urls>"],
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "action": {
+      "default_popup" : "popup.html",
+      "default_icon": {
+        "16": "images/amdocs.png",
+        "128": "images/amdocs.png"
+      }
+    },
+    "icons": {
+      "16": "images/amdocs.png",
+      "128": "images/amdocs.png"
+    },
+    "manifest_version": 3
+}
